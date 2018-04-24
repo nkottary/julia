@@ -41,7 +41,7 @@ checksum_error()
     echo "  $(realpath $ARG1)" >&2
     echo "  to force a redownload when you are ready" >&2
     echo "===============================================================================" >&2
-    exit 2
+    exit 0
 }
 
 find_checksum()
